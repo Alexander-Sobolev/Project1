@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
         
         navigationController?.navigationBar.prefersLargeTitles = true
         title = "Storm Viewer"
+        
         // FileManager.default. Это тип данных, который позволяет нам работать с файловой системой, и в нашем случае мы будем использовать его для поиска файлов.
         let fm = FileManager.default
         // объявляет константу с именем, pathкоторая задает путь к ресурсу пакета нашего приложения. Помните, что Bundle - это каталог, содержащий нашу скомпилированную программу и все наши ресурсы
